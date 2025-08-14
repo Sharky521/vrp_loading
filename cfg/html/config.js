@@ -26,23 +26,23 @@ const settings = {
 const slidesData = [
 	{
 		imageSrc: '../assets/images/1.png',
-		headingText: 'You can add/remove items, vehicles, jobs & gangs through the shared folder.',
+		headingText: '',
 		captionText: 'Photo captured by: Markyoo#8068'
 	},
 	{
 		imageSrc: '../assets/images/2.png',
-		headingText: 'Adding additional player data can be achieved by modifying the qb-core player.lua file.',
+		headingText: '',
 		captionText: 'Photo captured by: ihyajb#9723'
 	},
 	{
 		imageSrc: '../assets/images/3.png',
-		headingText: 'All server-specific adjustments can be made in the config.lua files throughout the build.',
+		headingText: '',
 		captionText: 'Photo captured by: FLAPZ[INACTIV]#9925',
 		isActive: true
 	},
 	{
 		imageSrc: '../assets/images/4.png',
-		headingText: 'For additional support please join our community at discord.gg/qbcore',
+		headingText: 'For additional support please join our community at discord.gg/yFfj2pbe6d',
 		captionText: 'Photo captured by: Robinerino#1312'
 	}
 ];
@@ -113,5 +113,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	if (loadbar) loadbar.style.backgroundColor = loadingBarBackgound;
 	if (thingy) thingy.style.backgroundColor = loadingBarColor;
 });
+
 
 export { settings, slidesData, keybindsData };
